@@ -1,0 +1,143 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+	<title>Teste para a vaga do DEV mais ninja do universo! - Acessibilidade</title>
+	<link rel="shortcut icon" href="http://digital.iguale.com.br/assets/favicon.ico">
+	<!-- page CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!--jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+		<script type="text/javascript">
+		
+	
+		</script>
+    <!-- - acessibilidade -->
+
+</head>
+
+<body>
+
+<!-- Html tool Bar -->
+
+	<header ></header>
+		<nav>
+			<ul>
+				<li><a href="http://www.w3c.br/Home/WebHome"  target="_blank">W3C</a></li>
+				<li><a href="https://www.w3.org/WAI/intro/wcag"  target="_blank">Sobre o WCAG 2.0</a></li>
+				<li><a href="https://webaim.org/"  target="_blank">webAim</a></li>
+				<li><a href="https://www.google.com.br"  target="_blank">Pesquise no Google</a></li>
+			</ul>
+		</nav>
+	
+	<div class="content-container">
+	<main class="main-content">
+
+	<section >
+
+		<h1>Vamos testar seus conhecimentos em acessibilidade!</h1>
+		<div>
+			Esta página contém uma imagem e um formulário.<br>
+			Ela contém vários problemas, inclusive de acessibilidade, não está estilizada,não é responsiva,etc... 
+			Seu objetivo é identificar os problemas e corrigi-los (São muitos!)<br>
+			Seleciona a webfont que preferir, cores, etc...
+			A página deverá ser acessível para todos os usuários e interpretada corretamente por softwares leitores de tela  e ferramentas assistivas.
+			<br><br>
+			Implemente as melhores soluções possíveis, pesquise no Google livremente e não tenha pressa para concluir este teste.
+			<br><br>
+			
+			Iremos avaliar principalmente seu trabalho de acessibilidade, se o contraste ficou adequado, se as fontes, espaçamento de texto, ficaram adequadas.<br>
+			Se conseguimos navegar pelo site sem uso do mouse, entre outras coisas importantes!<br><br>
+			Ah! Não precisa fazer o formulário funcionar enviando seu conteúdo para algum lugar, não foque seu esforço nisso, ok? <br><br>
+			Tenha em mente que o mais  importante é compreender os principios da acessibilidade e executar este teste acima de tudo com EMPATIA!<br><br>
+			Quando considerar que seu trabalho está pronto, utilize os validadores da WC3 para CSS e HTML (pesquise no google e encontre-os), então envie um pullRequest!<br>
+			Boa sorte.
+
+		</div>
+
+		<div></div>
+	
+		<h2>Uma imagem abaixo...</h2>
+
+		<img src="images/dali.jpg">
+
+	
+	</section>
+
+<section>
+
+	<h1>Preencha o fomrulário abaixo</h1>
+	<form onsubmit="return false">
+	<fieldset> 
+	<p>Dados pessoais (identificação do formulário)</p> 
+	<div> 
+	
+	<label for="nome">Nome</label>
+	<input id="nome" name="nome" placeholder="Informe seu primeiro nome" required="" type="text" tabindex="1"> 
+	
+	</div>
+
+	<div> 
+	<label for="emaikl">Email 
+	<input id="emaikl" name="email" placeholder="exemplo@iguale.com.br" required="" type="email"  tabindex="2">
+	</label> 
+	</div> 
+	
+	<div> 
+	<label for="url">URL 
+	<input id="url" name="url" placeholder="http://meusite.com.br" type="url"  tabindex="3">
+	</label> 
+	</div>    
+	
+	<div> 
+	<label for="telefone">Telephone 
+	<input id="telefone" name="telefone" placeholder="Ex. +447000 000000" required="" type="tel"  tabindex="20">
+	</label> 
+	</div> 
+	
+	<div>
+	<label for="numbers">Números
+	<input id="numbers" name="numbers" min="5" max="18" step="0.5" value="9" type="number"  tabindex="12">
+	</label>
+	</div>
+	
+	<div>
+	<label for="escala">Escala (1 - 100)
+	<input id="escala" name="escala" min="1" max="100" value="0" type="range" step="1" oninput="output.value=escala.value"  tabindex="9">
+	</label>
+	<label for="output">
+		Escala:
+	<output for="escala" id="output" name="output" >0</output>
+	</label>
+	</div>
+	
+	<div>
+		<button type="submit"  tabindex="13">Enviar</button>
+	</div>
+
+	</fieldset>
+	</form>
+</section>
+	<div class="cls"></div>
+	
+</main>
+
+	
+	<div class="cls"></div>
+	</div>
+
+	<footer id="footer">
+	
+		
+	</footer>
+	
+
+
+</body>
+
+
+</html>
