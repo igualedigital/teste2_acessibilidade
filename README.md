@@ -12,7 +12,8 @@ Seu objetivo é resolver os problemas e tornar a página acessível por leitores
 3. Ajustar o contraste e cores dos elementos.
 4. Corrigir erros de acessibilidade no formulário.
 5. Deve ser usado HTML 5.2 e CSS 3 - Você está livre para trabalhar com pré-processadores CSS (LeSS,SASS ou Stylus).
-6. Não tenha pressa, se precisar pesquise bastante sobre o que e como irá implementar.
+6. Todo o código deverá estar comentado.
+7. Não tenha pressa, se precisar pesquise bastante sobre o que e como irá implementar.
 
 ### DICAS:
 
