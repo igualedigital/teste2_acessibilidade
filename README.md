@@ -34,6 +34,7 @@ Dois leitores de tela para você testar seu projeto, o NVDA é gratúito e o JAW
 * Use o editor de código que preferir, e incentivamos que pesquise a fundo na internet a melhor implementação e solução de problemas encontrados.
 * Deverá funcionar perfeitamente nos Browsers: Microsoft Edge, Chrome, Safari, Firefox - todos na versão mais recente.
 
-Quando terminar, solicite um pull request. Em caso de dúvidas, envie e-mail para contato@igualedigital.com.br
+Quando terminar, solicite um pull request ou crie um zip e envie para o email a seguir. 
+Em caso de dúvidas, envie e-mail para contato@igualedigital.com.br
 
 **Boa sorte!**
