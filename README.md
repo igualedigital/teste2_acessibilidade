@@ -30,10 +30,9 @@ Dois leitores de tela para você testar seu projeto, o NVDA é gratúito e o JAW
 
 * As imagens do layout estão no diretório images.
 * O formulário não precisa funcionar, enviando dados para algum lugar!
-* Use o editor de código que preferir, e incentivamos que pesquise a funda na internet a melhor implementação e solução de problemas encontrados.
+* Use o editor de código que preferir, e incentivamos que pesquise a fundo na internet a melhor implementação e solução de problemas encontrados.
 * Deverá funcionar perfeitamente nos Browsers: Microsoft Edge, Chrome, Safari, Firefox - todos na versão mais recente.
 
-Ao terminar o teste, solicite um pull request
-Em caso de dúvidas, envie e-mail para web@iguale.com.br
+Quando terminar, solicite um pull request. Em caso de dúvidas, envie e-mail para contato@igualedigital.com.br
 
 **Boa sorte!**
